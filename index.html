@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>Calc</title>
+		<link rel="stylesheet" href="./style.css" />
+		<script src="./script.js" defer></script>
+		<link rel="preconnect" href="https://fonts.googleapis.com" />
+		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+		<link
+			href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap"
+			rel="stylesheet"
+		/>
+	</head>
+	<body>
+		<header class="header" id="header">
+			<h1 class="title" id="title">Калькулятор</h1>
+		</header>
+		<main class="main" id="main">
+			<div class="wrapper" id="wrapper">
+				<div class="calc" id="calc">
+					<input class="display" id="display" type="text" value="0" />
+					<div class="buttons" id="buttons">
+						<ul class="btn-list" id="btn-list">
+							<div class="buttons__top" id="top-btns">
+								<li class="top-btn" id="btn">MC</li>
+								<li class="top-btn" id="btn">MR</li>
+								<li class="top-btn" id="btn">M+</li>
+								<li class="top-btn" id="btn">M-</li>
+								<li class="top-btn" id="btn">MS</li>
+								<li class="top-btn" id="btn">
+									M
+									<img
+										src="./img/down-arrow-svgrepo-com.svg"
+										alt="arrow-down"
+										class="icon arrow__icon"
+									/>
+								</li>
+							</div>
+							<div class="buttons__bottom">
+								<div>
+									<li class="btn" id="btn">%</li>
+									<li class="btn" id="btn">CE</li>
+									<li class="btn" id="btn">C</li>
+									<li class="btn" id="btn">
+										<img
+											src="./img/backspace-svgrepo-com.svg"
+											alt="delete"
+											class="icon delete__icon"
+										/>
+									</li>
+								</div>
+								<div>
+									<li class="btn" id="btn-1/x">1/x</li>
+									<li class="btn" id="btn-1sup2">1&sup2;</li>
+									<li class="btn" id="btn-2radicx"><sup>2</sup>&radic;x</li>
+									<li class="btn" id="btn-divide">&divide;</li>
+								</div>
+								<div>
+									<li class="btn" id="btn-7">7</li>
+									<li class="btn" id="btn-8">8</li>
+									<li class="btn" id="btn-9">9</li>
+									<li class="btn" id="btn">&times;</li>
+								</div>
+								<div>
+									<li class="btn" id="btn">4</li>
+									<li class="btn" id="btn">5</li>
+									<li class="btn" id="btn">6</li>
+									<li class="btn" id="btn">&minus;</li>
+								</div>
+								<div>
+									<li class="btn" id="btn">1</li>
+									<li class="btn" id="btn">2</li>
+									<li class="btn" id="btn">4</li>
+									<li class="btn" id="btn">&plus;</li>
+								</div>
+								<div>
+									<li class="btn" id="btn"><sup>+</sup>&frasl;<sub>-</sub></li>
+									<li class="btn" id="btn">0</li>
+									<li class="btn" id="btn">,</li>
+									<li class="btn" id="btn">=</li>
+								</div>
+							</div>
+						</ul>
+					</div>
+					<div class="history" id="history"></div>
+				</div>
+			</div>
+		</main>
+		<footer class="footer" id="footer">Footer</footer>
+	</body>
+</html>
